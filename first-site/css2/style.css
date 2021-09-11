@@ -1,0 +1,20 @@
+img{max-width: 100%;}
+p{
+  font-size: 30px;
+  color: blue;
+  font-weight:800;
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Source Code Pro',monospace;
+  background: pink;
+  border-radius: 50%;
+  text-shadow: 2px 2px 2px green;
+  box-shadow: 10px 7px 3px red;
+  filter: hue-rotate(400deg);
+}
+.rotate{
+  transform: translateY(10px);
+  color: yellow;
+  display: inline-block;
+}

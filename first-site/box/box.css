@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+}
+body{
+  margin: 0;
+}
+p{
+  background:rgb(156, 196, 20);
+  margin: 10px 50px 60px 90px;
+  /* short hand for  what is down below */
+  /* margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+  border: 10px;
+  padding: 20px 40px;
+  border-style: dotted;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
