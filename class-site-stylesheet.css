@@ -1,5 +1,11 @@
-html{background-color:thistle}
+html{background-color: #dadef9}
 a {
   color: black;
   text-decoration: none;
+}
+a{
+  border-radius: 15px;
+  background: #bfcd91;
+  padding: 12px;
+  height: 15px;
 }

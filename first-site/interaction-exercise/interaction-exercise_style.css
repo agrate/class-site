@@ -1,0 +1,63 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+
+body{
+  background: rgb(158, 213, 151);
+}
+
+.secret-word{
+  color: rgb(177, 110, 208);
+  cursor: cell;
+}
+
+.secret2{
+  max-width: 200px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: none;
+}
+
+.secret-word:hover .secret2{
+  display:block;
+}
+
+.secret-button{
+  background: rgb(188, 249, 12);
+  padding: 30px;
+  display:inline-block;
+}
+
+.secret-button:hover{
+  background: rgb(227, 133, 81);
+}
+
+.secret{
+  max-width: 200px;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+}
+
+.secret-button:hover + .secret{
+  opacity: 1;
+}
+
+.object{
+  background: rgb(95, 131, 85);
+  width: 200PX;
+  height: 200PX;
+  border-radius: 50%;
+  position: fixed;
+  top: 400px;
+  left: 50%;
+  transition: background 1s, border-radius 2s,transform 1s;
+}
+
+.object:hover{
+  background:rgb(85, 110, 65);
+  border-radius: 0;
+  transform: scale(1.3);
+  cursor:pointer;
+}

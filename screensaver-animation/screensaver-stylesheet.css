@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width:100%;
+}
+
+body {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.organic {
+  position: absolute;
+  display: block;
+  width: 25%;
+  height: 25%;
+  background: radial-gradient(#fefde3, #f7e4f4, #aabaf3, #98e2f4);
+  border-radius: 41% 99% 41% 59% / 43% 85% 55% 57%;
+  animation-name: organic;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes organic {
+  0% {
+    transform: rotate(0deg) scale(0);
+  }
+  10% {
+    transform: rotate(8deg) scale(2);
+  }
+  20% {
+    transform: rotate(15deg) scale(0);
+  }
+  30% {
+    transform: rotate(35deg) scale(4);
+  }
+  40% {
+    transform: rotate(58deg) scale(7);
+  }
+  50% {
+    transform: rotate(155deg) scale(4);
+  }
+  98%{
+    opacity: 1;
+    transform: rotate(240deg) scale(6);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(290deg) scale(10);
+  }
+}
+/*
+body {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  animation: spin 4s infinite alternate linear;
+}
+
+.organic {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 10px%;
+  background: linear-gradient(135deg, rgb(203, 242, 255),
+  rgb(252, 252, 191));
+  border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+  animation-name: organic;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes organic {
+    0% {border-radius: 41% 59% 41% 59% / 68% 89% 72% 7%}
+    20% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+    100% {border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%}
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(8);
+  }
+  100% {
+    transform: rotate(360deg) scale(12);
+  }
+}
+*/

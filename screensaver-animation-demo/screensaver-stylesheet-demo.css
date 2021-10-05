@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  max-width:100%;
+}
+
+body{
+  animation: sunset 3s infinite linear alternate;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  background: rgb(103, 224, 236);
+  position: fixed;
+  top: 40%;
+  left: 43%;
+  animation: spin 8s infinite alternate linear;
+}
+
+.box:hover {
+  animation: spin 8s infinite alternate linear;
+}
+
+@keyframes sunset{
+  0% {
+    background: rgb(180, 223, 124);
+  }
+  100% {
+    background: rgb(85, 120, 161);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+    background: rgb(255, 177, 218);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+    background: rgb(255, 190, 105);
+  }
+  100% {
+    transform: rotate(360deg) scale(2);
+    background: rgb(122, 123, 207);
+  }
+}
