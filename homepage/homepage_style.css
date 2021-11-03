@@ -1,0 +1,162 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+
+body{
+  margin: 0;
+}
+.base{
+  position: fixed;
+  max-height: 195vh;
+}
+
+.big-plant{
+  position: fixed;
+  animation: wiggle 15s infinite linear;
+  transform-origin: 65% 80%;
+}
+
+@keyframes wiggle{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(4deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-4deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.squiggle-pot{
+  position: fixed;
+  z-index:20;
+}
+
+.squiggle-plant{
+  position: fixed;
+  z-index: 10;
+  animation: wiggle1 10s infinite linear;
+  transform-origin: 15% 80%;
+}
+
+@keyframes wiggle1{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(2deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-2deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.cacti{
+  position: fixed;
+  z-index:10;
+  animation: wiggle2 10s infinite linear;
+  transform-origin: 25% 90%;
+}
+
+@keyframes wiggle2{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(2deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-3deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.leaf-plant{
+  position: fixed;
+  z-index:-10;
+  animation: wiggle3 20s infinite linear;
+  transform-origin: 20% 60%;
+}
+
+@keyframes wiggle3{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(4deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-5deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.pearl-plant{
+  position: fixed;
+  z-index:10;
+  animation: wiggle4 15s infinite linear;
+  transform-origin: 10% 60%;
+}
+
+@keyframes wiggle4{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(2deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-2deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.sage{
+  position: fixed;
+  z-index:20;
+  animation: wiggle5 15s infinite linear;
+  transform-origin: 80% 75%;
+}
+
+@keyframes wiggle5{
+  0%{transform: rotate(0deg) scale(1)}
+  25%{transform: rotate(2deg) scale(1)}
+  50%{transform: rotate(0deg) scale(1)}
+  75%{transform: rotate(-2deg) scale(1)}
+  100%{transform: rotate(0deg) scale(1)}
+}
+
+.coffee{
+  position: fixed;
+  z-index:20;
+  display:none;
+}
+
+.wine{
+  position: fixed;
+  z-index:20;
+  display:none;
+}
+
+.active {
+  display:block;
+}
+
+
+/*reset*/ h1,h4 {margin:0;}
+
+/* basic styles */
+h1 { margin-bottom: 10px; }
+div {
+  width: 680px;
+  padding: 10px 25px;
+  margin: 50px auto;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.4);
+  color: #1F1F1F;
+}
+
+#greeting {
+  /* background:red; */
+  width:100vw;
+  height:100vh;
+  position: fixed;
+  z-index: -20;
+}
+
+.morning, .evening {
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.morning {
+  background-image: url(morning.png); /* Change the url of the image */
+
+}
+
+.evening {
+  background-image: url(evening.png); /* Change the url of the image */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: 195vh;
+}
