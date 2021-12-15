@@ -1,0 +1,93 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+html{ background-color: #F8F0E3}
+
+h1{
+  color: black;
+  font-family: mrsheffield-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.twins{
+  position: absolute;
+  left: 50px;
+}
+
+.flower{
+  position: absolute;
+  right: 50px;
+}
+
+.bw-wheel1{
+  position: absolute;
+  left: 50px;
+  top: 650px;
+}
+
+h3{
+  font-family: alda, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  left: 500px;
+  right: 600px;
+  top: 700px;
+}
+
+.green-pink-plant{
+  position: absolute;
+  top: 900px;
+  left: 490px;
+}
+
+.bw-wheel2{
+  position: absolute;
+  right: 50px;
+  top: 950px;
+}
+
+.sheep{
+  position: absolute;
+  left: 50px;
+  top: 1300px;
+}
+
+.tiny-plant{
+  position: absolute;
+  left: 490px;
+  top: 1350px;
+}
+
+.branches1{
+  position: absolute;
+  right: 50px;
+  top: 1700px;
+}
+
+.landscape{
+  position: absolute;
+  top: 1800px;
+  right: 500px;
+}
+
+.branches2{
+  position: absolute;
+  top: 1950px;
+  left: 50px;
+}
+
+.bw-wheel3{
+  position: absolute;
+  top: 2350px;
+  right: 50px;
+}
+
+p{
+  opacity: 0%;
+  position: absolute;
+  top: 3000px;
+}

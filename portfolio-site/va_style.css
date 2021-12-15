@@ -1,0 +1,38 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+html{ background-color: #F8F0E3}
+
+h1{
+  color: black;
+  font-family: mrsheffield-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.wall{
+  position: absolute;
+  left: 50px;
+}
+
+.river{
+  position: absolute;
+  left: 550px;
+}
+
+.tea-time{
+  position: absolute;
+  right: 50px;
+}
+
+h3{
+  font-family: alda, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+  top: 650px;
+}

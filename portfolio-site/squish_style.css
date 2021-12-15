@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+html{ background-color: #F8F0E3}
+
+h1{
+  color: black;
+  font-family: mrsheffield-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+h3{
+  font-family: alda, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  right: 50px;
+  left: 500px;
+  top: 400px;
+}
+
+.squish{
+  position: absolute;
+  left: 50px;
+}

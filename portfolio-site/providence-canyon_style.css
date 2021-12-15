@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+html{ background-color: #F8F0E3}
+
+h1{
+  color: black;
+  font-family: mrsheffield-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.pc1{
+  position: absolute;
+  left: 50px;
+}
+
+.pc3{
+  position: absolute;
+  left: 550px;
+}
+
+.pc2{
+  position: absolute;
+  right: 50px;
+}
+
+.pc4{
+  position: absolute;
+  left: 50px;
+  top: 850px;
+}
+
+h3{
+  font-family: alda, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  left: 600px;
+  right: 600px;
+  top: 650px;
+}
+
+.pc6{
+  position: absolute;
+  left: 550px;
+  top: 900px;
+}
+
+.pc5{
+  position: absolute;
+  right: 50px;
+  top: 850px;
+}
+
+.pc7{
+  position: absolute;
+  left: 50px;
+  top: 1500px;
+}
+
+.pc8{
+  position: absolute;
+  right: 50px;
+  top: 1500px;
+}
+
+p{
+  opacity: 0%;
+  position: absolute;
+  top: 2150px;
+}

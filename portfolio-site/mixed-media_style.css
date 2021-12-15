@@ -1,0 +1,103 @@
+* {box-sizing: border-box;}
+img{max-width: 100%;}
+html{ background-color: #F8F0E3}
+
+h1{
+  color: black;
+  font-family: mrsheffield-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  text-decoration: none;
+}
+
+.rei{
+  position: absolute;
+  left: 50px;
+}
+
+.layers{
+  position: absolute;
+  left: 450px;
+}
+
+.station2{
+  position: absolute;
+  right: 450px;
+}
+
+.relax-refresh{
+  position: absolute;
+  right: 50px;
+}
+
+.whole-foods{
+  position: absolute;
+  left: 50px;
+  top: 700px;
+}
+
+.dove{
+  position: absolute;
+  left: 400px;
+  top: 750px;
+}
+
+h3{
+  font-family: alda, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  position: absolute;
+  left: 800px;
+  right: 450px;
+  top: 770px;
+}
+
+.relating{
+  position: absolute;
+  right: 50px;
+  top: 700px;
+}
+
+.relating2{
+  position: absolute;
+  left: 50px;
+  top: 1250px;
+}
+
+.realist{
+  position: absolute;
+  top: 1125px;
+  left: 450px;
+}
+
+.red-dress{
+  position: absolute;
+  top: 1100px;
+  right: 500px;
+}
+
+.rose-print1{
+  position: absolute;
+  top: 1200px;
+  right: 50px;
+}
+
+.rose-print2{
+  position: absolute;
+  top: 1600px;
+  left: 450px;
+}
+
+.rose-print3{
+  position: absolute;
+  top: 1550px;
+  right: 50px;
+}
+
+p{
+  opacity: 0%;
+  position: absolute;
+  top: 2050px;
+}
